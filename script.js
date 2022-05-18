@@ -6,7 +6,7 @@ function comparaNum(){
     let resultado='';
 
     if(!n1 || !n2) {
-        alert('Por favor digite um número');
+        alert('Por favor digite um número válido!');
         comparaNum();
     }
     else {
