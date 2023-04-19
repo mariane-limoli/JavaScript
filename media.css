@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(254, 235, 252);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+#nota1, #nota2, #media, #soma, #subtracao, #divisao, #multiplicacao{
+    width: 50px;
+}
+h3 {
+    color: rgba(239, 21, 21, 0.589);
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(208, 145, 199);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.container{
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+}
+
+.conteudo{
+    display: flex;
+    align-items: first baseline;
+    
+}
+ div {
+    display: flex;
+    max-width: 450px;
+    border: 1px dotted red;
+    align-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(231, 234, 236);
+ }
+
+ .button {
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 100px 0 70px;
+    width: 300px;
+    
+ }
+
+  
+ 

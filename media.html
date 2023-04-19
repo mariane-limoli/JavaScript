@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="media.js"></script>
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <h1>Atividade de Programação WEB</h1>
+    <div class="container">
+
+        <div>
+            <h3>Calcular média </h3>
+
+                <label for="">Nome:</label>
+                <input type="text" id="nome">
+                <br>
+                <label for="">Nota 1: </label>
+                <input type="text" name="nota1" id="nota1">
+                <br>
+                <label for="">Nota 2: </label>
+                <input type="text" name="nota2" id="nota2">
+                <br>
+                <label for="">Média:</label>
+                <input for="" id="media" disabled></input>
+                
+
+            <div class="button">
+
+                <button value="Calcular média" onclick="media()">Calcular Média</button>
+                <button type="button" value="Limpar" onclick="limpar()">Limpar</button>
+            </div>
+        </div>
+
+        <div>
+            <h3>Calculadora simples</h3>
+            <div class="conteudo">
+                <label for="">Primeiro número: </label>
+                <input type="text" name="" id="num1">
+                <br>
+                <label for="">Segundo número: </label>
+                <input type="text" name="" id="num2">
+                <br>
+                <label for="">Soma: </label>
+                <input type="text" id="soma" disabled>
+                <br>
+                <label for="">Subtração: </label>
+                <input type="text" id="subtracao" disabled>
+                <br>
+                <label for="">Miltiplicação: </label>
+                <input type="text" id="multiplicacao" disabled>
+                <br>
+                <label for="">Divisão: </label>
+                <input type="text" id="divisao" disabled>
+                <br>
+
+            </div>
+            <button type="button" value="calcular" onclick="calcular()">Calcular</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
